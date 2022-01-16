@@ -1,0 +1,47 @@
+.main {
+  max-height: 50vh;
+  display: flex;
+}
+
+.mainContent {
+  display: flex;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eee;
+}
+
+.punkHightlight {
+  flex: 0.25;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.punkContainer {
+  border-radius: 20px;
+  overflow: hidden;
+  display: flex;
+  margin-right: 20px;
+}
+
+.punkDetails {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-direction: 0.75;
+}
+
+.selectedPunk {
+  object-fit: contain;
+  max-width: min(30vw, 40vh);
+  max-height: 30vw;
+}
+.title {
+  font-size: 96px;
+  font-weight: 800;
+}
+
+.ownerHandle {
+  object-fit: contain;
+  max-width: min(10vw, 15vh);
+  max-height: 10vw;
+}
